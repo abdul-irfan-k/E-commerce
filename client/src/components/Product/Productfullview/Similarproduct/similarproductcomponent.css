@@ -1,0 +1,15 @@
+.similarproduct-c {
+    margin-top: 30px ;
+    padding: 0 100px;
+}
+.similarproduct__header {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.similarproduct__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+}

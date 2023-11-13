@@ -1,0 +1,7 @@
+.product-c {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+}

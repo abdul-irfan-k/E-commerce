@@ -1,0 +1,19 @@
+.category-c {
+    padding: 0 100px;
+}
+
+.category-c__header {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.category-c__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category-c__body img {
+    object-fit: contain;
+}

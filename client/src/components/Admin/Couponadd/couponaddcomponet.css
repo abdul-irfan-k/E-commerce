@@ -1,0 +1,77 @@
+.couponadd-c {
+    padding: 0 0 0 20%;
+    
+}
+
+.couponadd-c__header {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 0 0 30px;
+}
+
+.couponadd-c__inputbox {
+    width: 75%;
+    background-color: red;
+    margin: 30px 0 0 30px;
+    padding: 60px;
+    border-radius: 8px;
+    background: #282F44;
+}
+
+.couponadd-c__inputimage {
+    width: 100%;
+    aspect-ratio: 9/4.5;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(0.20000000298023224px);
+    border-radius: 8px;
+}
+
+.couponadd-c__inputtitle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 400;   
+    align-items: center;
+}
+
+.couponadd-c__inputtitle div {
+    width: 18%;
+}
+
+.couponadd-c__inputtitle input {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: calc(100% - 40px);
+    padding: 13px 20px;
+    background: #D9D9D9;
+    color: #000;
+    font-size: 22px;
+}
+
+.couponadd-c__inputtitle input:hover {
+    border: none;
+    outline: none;
+}
+
+
+.couponadd-c__inputcontent textarea{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: calc(100% - 40px);
+    padding: 13px 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(0.20000000298023224px);
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+.couponadd-c__submitbutton {
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 26px;
+    margin-top: 30px;
+} 

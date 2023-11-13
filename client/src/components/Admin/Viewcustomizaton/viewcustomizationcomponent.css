@@ -1,0 +1,46 @@
+.view-c__viewselection {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
+}
+
+.view-c__sortselection {
+    margin: auto 0 auto 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #282F44;
+    padding: 15px 30px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.view-c__searchbox {
+    margin: auto 0 auto 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #282F44;
+    padding: 15px 30px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.view-c__searchbox input {
+    outline: none;
+    border: none;
+    font-size: 29px;
+    font-weight: 400;
+    width: 6rem;
+    background: #282F44;
+    color: #FFF;
+}
+ 
+.view-c__viewselection svg ,
+.view-c__sortselection svg ,
+.view-c__searchbox svg {
+    font-size: 29px;
+}

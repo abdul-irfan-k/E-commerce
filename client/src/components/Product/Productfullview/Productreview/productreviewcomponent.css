@@ -1,0 +1,121 @@
+.productreview {
+    margin: 60px 0 0 100px;
+    width: 70%;
+    padding: 60px;
+}
+
+.productreview__header {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.productreview__ratingbox {
+    display: flex;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.productreview__ratingleftbox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.productreview__allrating {
+    color: #FFA600;
+}
+
+.productreview__ratingleftbox span:nth-child(2) {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.productreview__allrating svg {
+    font-size: 140px;
+}
+
+.productreview__ratingrightbox {
+    flex: 1;
+}
+
+.productreview__rating {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.productreview__rating span {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.productreview__rating span svg {
+    margin: auto 0;
+}
+
+.productreview__ratingprogress {
+    width: 180px;
+    height: 15px;
+    border-radius: 8px;
+    background: #d3d3d3;
+    margin-left: 20px;
+}
+
+.productreview__ratingprogress div {
+    height: 100%;
+    border-radius: 8px;
+
+}
+
+.productreview__line {
+    height: 2px;
+    background-color: #6A6A6A;
+    margin-top: 30px;
+}
+
+.productreview__sortbutton {
+    border-radius: 8px;
+    border: 2px solid #FFA600;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100px;
+    margin: 30px 0 0 auto;
+    gap: 5px;
+}
+
+.productreview__reviewbox {
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 2px 3px 10px 3px rgba(0, 0, 0, 0.17);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productreview__reviewbox__rating {
+    padding: 5px 15px;
+    border-radius: 8px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.productreview__paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.productreview__reviewer {
+    color: #373737;
+    font-size: 13px;
+    font-weight: 400;
+}

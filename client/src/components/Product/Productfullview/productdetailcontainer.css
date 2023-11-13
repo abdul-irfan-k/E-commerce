@@ -1,0 +1,150 @@
+.productview-c {
+    display: flex;
+    padding: 0 100px;
+    margin-top: 60px;
+    gap: 60px;
+}
+
+.productview-c__imagebox {
+    flex: 1;
+}
+
+.product-c__image {
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 2px 3px 6px 3px rgba(0, 0, 0, 0.17);
+    aspect-ratio: 1/.8;
+}
+
+.productview-c__imageselectionbox {
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+    margin: 30px auto;
+    gap: 40px;
+}
+
+.productview-c__imageselection {
+    width: 20%;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    box-shadow: 2px 3px 6px 3px rgba(0, 0, 0, 0.17);
+
+}
+
+.productview-c__content {
+    flex: 1;
+}
+
+.productview-c__productname {
+    font-size: 53px;
+    font-weight: 400;
+}
+
+.productview-c__producttitle {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.productview-c__productprice {
+    font-size: 53px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.productview-c__productstock {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.productview-c__productstock div {
+    height: 24px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #00FF0A;
+}
+
+.productview-c__productstock span {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.productview-c__productcolorbox,
+.productview-c__productsizebox {
+    background: #FFF;
+    box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.17);
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productview-c__productcolorbox {
+    margin-top: 60px;
+}
+
+.productview-c__productsizebox {
+    margin-top: 30px;
+}
+
+.productview-c__productcolorbox span,
+.productview-c__productsizebox span {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.productview-c__colorselectionbox,
+.productview-c__sizeselectionbox {
+    display: flex;
+    flex: .8;
+}
+
+.productview-c__colorselection,
+.productview-c__sizeselection {
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.productview-c__colorselection div,
+.productview-c__sizeselection div {
+    width: 24px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.productview-c__colorselection span,
+.productview-c__sizeselection span {
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+.productview-c__orderbuttons {
+    display: flex;
+    margin-top: 60px;
+    gap: 60px;
+}
+
+.productview-c__cartbutton {
+    border-radius: 8px;
+    border: 2px solid #FFA600;
+    background: #FFF;
+    padding: 15px 20px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.productview-c__purchasebutton {
+    border-radius: 8px;
+    background-color:#FFA600 ;
+    color: #FFF;
+    padding: 15px 60px;
+    font-size: 26px;
+    font-weight: 400;
+}

@@ -1,0 +1,114 @@
+.dashboard-c {
+    padding: 0 0 0 20%;
+}
+
+.dashboard-c__header {
+    margin: 30px 0 0 30px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+
+.dashboard-c__revenuechartbox {
+    margin: 60px 30px 0 30px;
+}
+
+.dashboard-c__revenuechartheaderbox {
+    display: flex;
+}
+
+.dashboard-c__revenuechartheader {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.dashboard-c__revenuecharttimeselection {
+    display: flex;
+    margin: auto 0 auto auto;
+    font-size: 29px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+
+}
+
+.dashboard-c__revenuecharttimeselection svg {
+    font-size: 29px;
+}
+
+.dashboard-c__revenuechartbody {
+    display: flex;
+    gap: 30px;
+}
+
+.dashboard-c__revenuelinechart {
+    flex: 3;
+    padding: 60px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-top: 30px;
+}
+
+.dashboard-c__revenueroundchart {
+    flex: 1;
+    padding: 60px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-top: 30px;
+}
+
+
+.dashboard-c__orderchartbox {
+    margin: 60px 30px 0 30px;
+    width: 75%;
+}
+
+.dashboard-c__orderchartheaderbox {
+    display: flex;
+}
+
+.dashboard-c__orderchartheader {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.dashboard-c__orderchartviewselection {
+    display: flex;
+    margin: auto 0 auto auto;
+}
+
+.dashboard-c__orderchartviewselection svg {
+    font-size: 35px;
+}
+
+.dashboard-c__orderchartweekselection {
+    display: flex;
+    margin: auto 0 auto 30px;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+}
+
+.dashboard-c__orderchartweekselection svg {
+    font-size: 29px;
+}
+
+.dashboard-c__orderchart {
+    padding: 60px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-top: 30px;
+}
+
+.dashboard-c__sellingtable {
+    margin: 60px 30px 0 30px;
+    width: 75%;
+}
+
+.dashboard-c__sellingtableheader {
+    font-size: 35px;
+    font-weight: 400
+}

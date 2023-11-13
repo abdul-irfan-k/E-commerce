@@ -1,0 +1,19 @@
+.categorycard {
+    padding: 22px;
+    width: 25%;
+    background: #FFF;
+    box-shadow: 2px 3px 7px 5px rgba(0, 0, 0, 0.10);
+    margin: 30px 0;
+}
+
+.categorycard__header {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.categorycard__image {
+    width: 100%;
+    aspect-ratio: 1;
+}

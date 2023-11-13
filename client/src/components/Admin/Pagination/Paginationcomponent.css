@@ -1,0 +1,9 @@
+.tablepagination {
+    display: flex;
+    gap: 10px;
+}
+.tablepagination div {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 30px;
+}

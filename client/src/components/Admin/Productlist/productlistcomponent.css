@@ -1,0 +1,18 @@
+.productlist-c {
+padding: 0 0 0 20%;
+}
+
+.productlist-c__headerbox {
+    display: flex;
+    align-items: center;
+    margin: 30px 30px 0 30px;
+}   
+
+.productlist-c__header {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.productlist-c__pagination {
+    padding: 30px;
+}

@@ -1,0 +1,18 @@
+.couponlist-c {
+    padding: 0 0 0 20%;
+}
+
+.couponlist-c__headerbox {
+    display: flex;
+    align-items: center;
+    margin: 30px 30px 0 30px;
+}
+
+.couponlist-c__header {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.couponlist-c__pagination {
+    padding: 30px;
+}

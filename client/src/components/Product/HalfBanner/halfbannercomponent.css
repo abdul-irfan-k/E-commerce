@@ -1,0 +1,9 @@
+.halfbanner-c {
+    display: flex;
+    margin: 30px 0;
+}
+
+.halfbanner {
+    width: 50%;
+    aspect-ratio: 1.75/1;
+}

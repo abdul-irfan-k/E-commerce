@@ -1,0 +1,67 @@
+.userverification {
+    width: 50%;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    background: #F3F3F3;
+    box-shadow: 2px 3px 7px 3px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    margin: 100px auto;
+}
+
+.userverification__header {
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.userverification__inputcontainer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.userverification__inputbox {
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 30px 30px;
+}
+
+.userverification__inputbox span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.userverification__inputbox input {
+    margin-left: auto;
+    justify-content: right;
+    height: 25px;
+    width: 25px;
+}
+
+.userverification__inputbox input:checked {
+    color: #000000;
+}
+
+.userverification__buttonbox {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+.userverification__buttonbox div {
+    padding: 15px 0;
+    width: 8rem;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+}

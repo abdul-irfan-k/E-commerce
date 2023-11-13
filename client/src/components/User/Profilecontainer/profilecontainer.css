@@ -1,0 +1,115 @@
+.profile-c {
+    position: relative;
+    padding: 0 100px;
+    margin-top: 60px;
+
+}
+
+.profile-c__menubox {
+    position: fixed;
+    height: 70vh;
+    box-sizing: border-box;
+    width: inherit;
+    box-shadow: 2px 3px 7px 5px rgba(0, 0, 0, 0.10);
+    width: calc(100% - 200px - (70% - 100px));
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-c__menuimage {
+    width: 30%;
+    aspect-ratio: 1;
+    margin: 60px auto 0 auto;
+    border-radius: 50%;
+
+}
+
+
+.profile-c__menuusername {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px auto 0 auto;
+
+}
+
+.profile-c__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.profile-c__rightbox {
+    margin: 0 0 0 30%;
+}
+
+.profile-c__userdetailbox {
+    position: relative;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-c__username {
+    padding: 60px 0 0 0;
+}
+
+.profile-c__username,
+.profile-c__useremail,
+.profile-c__userphone {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    display: flex;
+}
+
+.profile-c__username div:nth-child(1),
+.profile-c__useremail div:nth-child(1),
+.profile-c__userphone div:nth-child(1) {
+    width: 15%;
+}
+
+
+
+.profile-c__usereditbutton {
+    border-radius: 8px;
+    border: 1px solid #000;
+    font-size: 24px;
+    font-weight: 400;
+    align-self: flex-start;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+
+.profile-c__usereadressbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.profile-c__useradress {
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px 5px rgba(0, 0, 0, 0.10);
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.profile-c__useradressname {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.profile-c__useradresslocation {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.profile-c__useradresspincode {
+    font-size: 22px;
+    font-weight: 400;
+}

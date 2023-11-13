@@ -1,0 +1,32 @@
+.productdiscription {
+    margin: 60px 0 0 100px;
+    width: 70%;
+    background: #FFF;
+    padding: 60px;
+    box-shadow: 2px 3px 12px 3px rgba(0, 0, 0, 0.17);
+}
+
+.productdiscription__header {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+
+.productdiscription__table {
+    margin-top: 30px;
+    display: flex;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.productdiscription__table div:nth-child(1) {
+    width: 15%;
+}
+
+.productdiscription__paragraph {
+    margin-top: 30px;
+    width: 90%;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 147.187%;
+}

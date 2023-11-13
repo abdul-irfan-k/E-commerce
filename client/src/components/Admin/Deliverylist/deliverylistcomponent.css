@@ -1,0 +1,18 @@
+.deliverylist-c {
+    padding: 0 0 0 20%;
+}
+
+.deliverylist-c__headerbox {
+    display: flex;
+    align-items: center;
+    margin: 30px 30px 0 30px;
+}
+
+.deliverylist-c__header {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.deliverylist-c__pagination {
+    padding: 30px;
+}

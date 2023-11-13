@@ -1,0 +1,21 @@
+.profileimage-imagebox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profileimage-imagebox-image {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.profileimage-button {
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.select {
+    border: 5px solid black;
+}
